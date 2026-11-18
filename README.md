@@ -32,8 +32,8 @@ npm --version
 If you already have the source, open its root directory. Otherwise:
 
 ```bash
-git clone <YOUR_REPOSITORY_URL>
-cd <YOUR_PROJECT_DIRECTORY>
+git clone https://github.com/ymanoj0231/CFTchatBackend.git
+cd CFTchatBackend
 ```
 
 Install packages:
@@ -48,8 +48,7 @@ Expected scripts in `package.json`:
 {
   "scripts": {
     "dev": "tsx watch src/server.ts",
-    "build": "tsc",
-    "start": "node dist/server.js"
+    "build": "tsc"
   }
 }
 ```
