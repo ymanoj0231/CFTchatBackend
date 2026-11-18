@@ -403,7 +403,7 @@ Returns each chat's ID, member IDs, and creation time. A valid user with no chat
 
 If your Postman collection predates the Create User endpoint, add a request for `POST {{baseUrl}}/user/create`.
 
-## 10. Recommended test cases
+## 10. Covered test cases
 
 | Feature | Scenario | Expected result |
 |---|---|---|
